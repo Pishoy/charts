@@ -35,11 +35,18 @@ Update Complete. ⎈Happy Helming!⎈
 ```
 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
 ```
+3. to verify installation 
+
+```
+helm help
+```
+
 ### creae a package using helm, Github Pages example
 
-1. create a repo on github called charts and create a new branch called  gh-pages , https://github.com/Pishoy/charts
+1. create a new repo on github called charts and create a new branch called  gh-pages , https://github.com/Pishoy/charts
 
-2. set the branch  gh-pages as default , make sure enforce https on branch settings, is enabled by default
+2. set the branch  gh-pages as default , make sure enforce https on branch settings, is enabled by default , only put readme file and index.html
+
 3. now you can access your charts docs using https://pishoy.github.io/charts/ , message gonna appear as per index.html
 4. clone repo , repo only contains index.html (optional)
 
@@ -49,7 +56,7 @@ root@node1-master:~# ls charts
 README.md   index.html
 ```
 
-5. create a package from local helm charts ( to get local project clone it as below or use hel create buildachart )
+5. create a package from local helm charts ( to get local project clone it as below or use  `helm create buildachart` )
 
 ```
 root@node1-master:~# git clone git@github.com:Pishoy/charts.git -b main  buildachart
