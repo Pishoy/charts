@@ -32,9 +32,9 @@ Update Complete. ⎈Happy Helming!⎈
 ```
 
 2.after install hel, you want to export this
-
+```
 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
-
+```
 ### creae a package using helm, Github Pages example
 
 1. create a repo on github called charts and create a new branch called  gh-pages
