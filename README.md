@@ -92,6 +92,34 @@ entries:
     - https://pishoy.github.io/charts/buildachart-0.1.0.tgz
     version: 0.1.0
 generated: "2020-12-23T13:12:02.688684397Z"
+
+root@node1-master:~/charts# git branch
+* gh-pages
+
+root@node1-master:~/charts# git commit -a -m "change index"
+[gh-pages dc84212] change index
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+root@node1-master:~/charts# git push
+
+root@node1-master:~/charts# 
+root@node1-master:~/charts# curl https://pishoy.github.io/charts/index.yaml
+apiVersion: v1
+entries:
+  buildachart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-12-23T13:12:02.690091922Z"
+    description: A Helm chart for Kubernetes
+    digest: d14cdb7e1e824647ced261b3d05db4e5ff6dad3f2862b7ca7de70a8ebc326f55
+    name: buildachart
+    type: application
+    urls:
+    - https://pishoy.github.io/charts/buildachart-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-12-23T13:12:02.688684397Z"
+
+
 ```
 
 6. list hel repo before add our repo
