@@ -3,12 +3,12 @@ entries:
   buildachart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-12-23T10:59:26.539014459Z"
+    created: "2020-12-23T13:12:02.690091922Z"
     description: A Helm chart for Kubernetes
     digest: d14cdb7e1e824647ced261b3d05db4e5ff6dad3f2862b7ca7de70a8ebc326f55
     name: buildachart
     type: application
     urls:
-    - buildachart-0.1.0.tgz
+    - https://pishoy.github.io/charts/buildachart-0.1.0.tgz
     version: 0.1.0
-generated: "2020-12-23T10:59:26.53808601Z"
+generated: "2020-12-23T13:12:02.688684397Z"
