@@ -31,17 +31,15 @@ Hang tight while we grab the latest from your chart repositories...
 Update Complete. ⎈Happy Helming!⎈
 ```
 
-2.after install hel, you want to export this
+2. after install helm cli, you want to export this
 ```
 export KUBECONFIG=/etc/rancher/k3s/k3s.yaml
 ```
 ### creae a package using helm, Github Pages example
 
-1. create a repo on github called charts and create a new branch called  gh-pages
+1. create a repo on github called charts and create a new branch called  gh-pages , https://github.com/Pishoy/charts
 
-https://github.com/Pishoy/charts
-
-2. set the branch  gh-pages as default , make sure enforce https on branch settings
+2. set the branch  gh-pages as default , make sure enforce https on branch settings, is enabled by default
 3. now you can access your charts docs using https://pishoy.github.io/charts/ , message gonna appear as per index.html
 4. clone repo , repo only contains index.html (optional)
 
